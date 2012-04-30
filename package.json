@@ -1,0 +1,13 @@
+{
+  "author": "Craig Condon",
+  "name": "dref",
+  "description": "deep object refs",
+  "version": "0.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/crcn/dref.js.git"
+  },
+  "main": "./lib/index.js",
+  "dependencies": {},
+  "devDependencies": {}
+}
