@@ -1,3 +1,4 @@
+[![build status](https://secure.travis-ci.org/crcn/dref.js.png)](http://travis-ci.org/crcn/dref.js)
 ### Features
 
 - Ability to deep reference an object
