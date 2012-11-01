@@ -1,2 +1,2 @@
-[project:dref.js]
-tpl=template:git+npm
+[commands]
+proj=subl .
