@@ -50,6 +50,11 @@ describe("dref", function() {
     expect(dref.get(context, "fsd.fsd.fd.fds.f.fs.fs.sfd")).to.be(undefined);
   });
 
+  it("can set deep ref", function() {
+    dref.set(context, "fsd.fsd.fd.fds.f.fs.fs.sfd", "hello");
+    expect(dref.get(context, "fsd.fsd.fd.fds.f.fs.fs.sfd")).to.be("hello");
+  })
+
   it("can fetch the people names", function() {
     expect(dref.get(context, "people.$.name.first")).to.contain("Craig", "Sam", "Liam");
   });
